@@ -88,7 +88,7 @@ nav ul li a:hover {
 }
 
 .col-1 {
-    flex-basis: 30%;
+    flex-basis: 35%;
 }
 
 .col-1 img {
@@ -113,7 +113,7 @@ nav ul li a:hover {
 }
 
 .tabs-links:hover+.tabs-content {
-    padding: 15px;
+    padding: 25px;
     color:white;
     background:#262626;
     border-radius: 15px;
@@ -129,13 +129,18 @@ nav ul li a:hover {
 /* start of services */
 #projects {
     padding:80px;
-    justify-content:space-between;
+    display: flex;
+    /* justify-content:space-evenly; */
 }
 .service1, .contact-details{
+    margin-bottom:20px;
     padding: 25px;
     color: white;
     background: #262626;
     border-radius: 10px;
+}
+.Other-Social-links{
+display: flex;
 }
 /* start of contact */
 .icons{
@@ -154,6 +159,9 @@ nav ul li a:hover {
     display: grid;
     padding: 20px;
     /* justify-content: center;    */
+}
+#contact-form{
+    width:50%;
 }
 /* cv */
 .btn{

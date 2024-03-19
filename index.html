@@ -109,30 +109,18 @@
             <div class="container">
                 <h1 class="sub-title">My Services</h1>
                 <div class="row">
-                    <div class="service1 col-1">
-                        <h2> <i class="fa-solid fa-code"></i>web development</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, consectetur aliquid ex
-                            earum
-                            dolore iste, minus dolorum adipisci illo officiis aperiam molestias ab molestiae iure
-                            impedit
-                            harum debitis quis fugiat!</p>
+                    <div class="service1">
+                        <h2> <i class="fa-solid fa-code"></i>custom_login_system</h2>
+                        <p>A mini project in laravel having functionality of login, logout and creating new user in your
+                            database </p>
+                        <p> <a href="https://github.com/Kavita0011/custom_login_system.git">project link</a></p>
                     </div>
-                    <div class="service1 col-1">
-                        <h2> <i class="fa-solid fa-code"></i>web development</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, consectetur aliquid ex
-                            earum
-                            dolore iste, minus dolorum adipisci illo officiis aperiam molestias ab molestiae iure
-                            impedit
-                            harum debitis quis fugiat!</p>
+                    <div class="service1">
+                        <h2> <i class="fa-solid fa-code"></i>custom gantt chart</h2>
+                        <p>A mini project in core php to create gantt chart </p>
+                        <p> <a href="https://github.com/Kavita0011/gantt_chart.git">project link</a></p>
                     </div>
-                </div>
-                <div class="service1 col-1">
-                    <h2> <i class="fa-solid fa-code"></i>web development</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, consectetur aliquid ex
-                        earum
-                        dolore iste, minus dolorum adipisci illo officiis aperiam molestias ab molestiae iure
-                        impedit
-                        harum debitis quis fugiat!</p>
+
                 </div>
             </div>
         </div>
@@ -140,46 +128,51 @@
         <div id="contact">
             <div class="container">
                 <div class="row">
+                    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact me </h2>
+                    <form id="contact-form" name="contact-form" action="/php/mail.php" method="POST">
+                        <div class="form-grp"> <label for="name">Your name</label>
+                            <input type="text" id="name" name="name" class="form-control">
+                        </div>
+                        <div class="form-grp"> <label for="email" class="">Your email id</label>
+                            <input type="text" id="email" name="email" class="form-control">
+                        </div>
+                        <div class="form-grp"> <label for="Subject" class="">Subject</label>
+                            <input type="text" id="name" name="name" class="form-control">
+                        </div>
+                        <div class="form-group"> <label for="message">Your message</label>
+                            <textarea type="text" id="message" name="message" rows="2"
+                                class="form-control md-textarea"></textarea>
+                        </div>
+                        <button class="btn" type="submit">submit</button>
+                    </form>
                     <div class="contact-details">
                         <h1 class="sub-title">Contact me</h1>
                         <div class="phone"><i class="fa-solid fa-phone icons"></i> 6239713928</div>
-                        <div class="email "><i class="fa-regular fa-envelope icons"></i>bishtkavita779@gmail.com</div>
+                        <div class="email "><i class="fa-regular fa-envelope icons"></i>bishtkavita779@gmail.com
+                        </div>
+                        <div id="cv">
+                            <div class="container">
+                                <button class="btn" type="submit"><a href="/assets/images/myResume.pdf" download>
+                                        Download
+                                        CV</a></button>
+                            </div>
+                            </div>
                     </div>
-                    <div class="contact-details">
+
+                    <div class="contact-details Other-Social-links">
                         <h1 class="sub-title">Other Social links</h1>
                         <div class="linkedin"><a href="https://www.linkedin.com/in/kavita-bisht-1756492ba"><i
                                     class="fa-brands fa-linkedin icons"></i></a></div>
                         <div class="github"><a href="https://github.com/Kavita0011"> <i
                                     class="fa-brands fa-github icons"></i></a></div>
+                       
+                        </div>
                     </div>
-                    <div class="contact-details">
-                        <h2 class="h1-responsive font-weight-bold text-center my-4">Contact me </h2>
-                        <form id="contact-form" name="contact-form" action="/php/mail.php" method="POST">
-                            <div class="form-grp"> <label for="name">Your name</label>
-                                <input type="text" id="name" name="name" class="form-control">
-                            </div>
-                            <div class="form-grp"> <label for="email" class="">Your email id</label>
-                                <input type="text" id="email" name="email" class="form-control">
-                            </div>
-                            <div class="form-grp"> <label for="Subject" class="">Subject</label>
-                                <input type="text" id="name" name="name" class="form-control">
-                            </div>
-                            <div class="form-group"> <label for="message">Your message</label>
-                                <textarea type="text" id="message" name="message" rows="2"
-                                    class="form-control md-textarea"></textarea>
-                            </div>
-                            <button class="btn" type="submit">submit</button>
-                        </form>
-                    </div>
+
                 </div>
             </div>
         </div>
-        <div id="cv">
-            <div class="container">
-                <button class="btn" type="submit"><a href="/assets/images/myResume.pdf" download> Download
-                        CV</a></button>
-            </div>
-        </div>
+
 
     </main>
     <footer>
