@@ -15,7 +15,7 @@
     <header>
         <div class="container">
             <nav>
-                <img class="logo" src="./assets/images/logo.png" alt="">
+                <img class="logo" src="assets/images/logo.png" alt="">
                 <ul>
                     <li><a href="#about">about</a></li>
                     <li><a href="#projects">projects</a></li>
@@ -41,13 +41,10 @@
         <div id="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-1"><img src="/assets/images/user.jpg" alt=""></div>
+                    <div class="col-1"><img src="assets/images/user.jpg" alt=""></div>
                     <div class="col-2">
                         <h1 class="sub-title">about me</h1>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, alias id aliquam modi quia
-                            officiis magni sequi harum sunt. Perferendis tempore totam excepturi quasi vero rem enim
-                            fugit? Magnam, illo!</p>
-                        <div class="tabs-title">
+                        <p>My name is Kavita Bisht. I am from Ludhiana,punjab.I am BCA passed out from Devki Devi Jain memorial college for women in 2022.                        <div class="tabs-title">
                             <div>
                                 <p class="tabs-links">Skills</p>
                                 <div class="tabs-content ">
@@ -107,7 +104,7 @@
         <!-- start of projects section -->
         <div id="projects">
             <div class="container">
-                <h1 class="sub-title">My Services</h1>
+                <h1 class="sub-title">My Projects</h1>
                 <div class="row">
                     <div class="service1">
                         <h2> <i class="fa-solid fa-code"></i>custom_login_system</h2>
@@ -129,19 +126,19 @@
             <div class="container">
                 <div class="row">
                     <h2 class="h1-responsive font-weight-bold text-center my-4">Contact me </h2>
-                    <form id="contact-form" name="contact-form" action="/php/mail.php" method="POST">
+                    <form id="contact-form" name="contact-form" action="php/mail.php" method="POST">
                         <div class="form-grp"> <label for="name">Your name</label>
-                            <input type="text" id="name" name="name" class="form-control">
+                            <input type="text" id="name" name="name" class="form-control" required>
                         </div>
                         <div class="form-grp"> <label for="email" class="">Your email id</label>
-                            <input type="text" id="email" name="email" class="form-control">
+                            <input type="text" id="email" name="email" class="form-control" required>
                         </div>
                         <div class="form-grp"> <label for="Subject" class="">Subject</label>
-                            <input type="text" id="name" name="name" class="form-control">
+                            <input type="text" id="name" name="name" class="form-control" required>
                         </div>
                         <div class="form-group"> <label for="message">Your message</label>
                             <textarea type="text" id="message" name="message" rows="2"
-                                class="form-control md-textarea"></textarea>
+                                class="form-control md-textarea" required></textarea>
                         </div>
                         <button class="btn" type="submit">submit</button>
                     </form>
