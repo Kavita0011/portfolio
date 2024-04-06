@@ -90,10 +90,12 @@ nav ul li a:hover {
 .col-1 {
     flex-basis: 35%;
 }
-
+.image{
+    transform: rotate(10deg);
+}
 .col-1 img {
     width: 100%;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .sub-title {
