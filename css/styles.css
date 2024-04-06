@@ -142,6 +142,8 @@ nav ul li a:hover {
 }
 .Other-Social-links{
 display: flex;
+justify-content: center;
+/* text-align: center; */
 }
 /* start of contact */
 .icons{
